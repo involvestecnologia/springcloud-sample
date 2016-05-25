@@ -16,5 +16,10 @@
 
 	<modules>
 		<module>involvimento-config-server</module>
+		<module>involvimento-eureka-server</module>
+		<module>involvimento-hystrix</module>
+		<module>involvimento-gateway</module>
+		<module>involvimento-template</module>
+		<module>involvimento-web</module>
 	</modules>
 </project>
