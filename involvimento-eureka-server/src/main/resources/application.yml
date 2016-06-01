@@ -1,0 +1,12 @@
+eureka:
+  datacenter: cloud
+  client:
+    eurekaServerDNSName: your.dns.name
+    eurekaServerPort: 8761
+    eurekaServerURLContext: eureka
+    region: eu-west-1
+    registerWithEureka: true
+    fetchRegistry: true
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+    enableSelfPreservation: true
