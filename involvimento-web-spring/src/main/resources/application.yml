@@ -1,0 +1,6 @@
+server:
+  port: 8089
+  
+logging:
+  level:
+    org.springframework.security: DEBUG

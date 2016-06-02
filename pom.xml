@@ -21,5 +21,6 @@
 		<module>involvimento-gateway</module>
 		<module>involvimento-template</module>
 		<module>involvimento-web</module>
+		<module>involvimento-web-spring</module>
 	</modules>
 </project>
