@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<artifactId>involvimento-hystrix</artifactId>
 
-	<name>hystrix</name>
+	<name>involvimento-hystrix</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

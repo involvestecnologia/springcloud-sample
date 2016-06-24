@@ -7,7 +7,7 @@
 	<groupId>com.br.involves.prototipo.microservice</groupId>
 	<artifactId>involvimento-web-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<name>involvimento-web-spring</name>
 
 	<parent>
@@ -18,6 +18,7 @@
 	</parent>
 
 	<properties>
+		<spring-data.version>Gosling-RELEASE</spring-data.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.7</java.version>
 	</properties>
@@ -28,33 +29,38 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		
-        <dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-hystrix</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
@@ -66,6 +72,11 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+
+			<!-- <dependency> <groupId>org.springframework.data</groupId> <artifactId>spring-data-releasetrain</artifactId> 
+				<version>${spring-data.version}</version> <scope>import</scope> <type>pom</type> 
+				</dependency> -->
+
 		</dependencies>
 	</dependencyManagement>
 

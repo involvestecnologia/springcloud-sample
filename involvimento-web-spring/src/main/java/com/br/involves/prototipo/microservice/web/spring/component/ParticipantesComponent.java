@@ -7,7 +7,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 @Component
 public class ParticipantesComponent {
 
-	@HystrixCommand(fallbackMethod = "getNroParticipantesDefault")
+//	@HystrixCommand(fallbackMethod = "getNroParticipantesDefault")
     public String getNroParticipantes() {
         throw new RuntimeException();
     }

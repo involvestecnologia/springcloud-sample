@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<artifactId>involvimento-eureka-server</artifactId>
 	
-	<name>eureka-server</name>
+	<name>involvimento-eureka-server</name>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
